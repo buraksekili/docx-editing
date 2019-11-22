@@ -7,4 +7,4 @@ pip install python-docx
 ```
 
 Issues:
-- I couldn't change font sizes yet.
+- I couldn't change font sizes yet. (Updated)
