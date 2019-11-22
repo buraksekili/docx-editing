@@ -47,10 +47,6 @@ while (curr_student < len(names)):
     school = school.replace(" ", "-")
     document.paragraphs[4].runs[0].text = names[curr_student];
     document.paragraphs[5].runs[0].text = surnames[curr_student];
-    if  schools[curr_student] == "Sabancı Üniversitesi":
-        print(document.paragraphs[6].runs[0].text)
-        print(document.paragraphs[6].runs[1].text)
-        print(document.paragraphs[6].runs[2].text)
     if schools[curr_student].count(' ') == 0:
         document.paragraphs[6].runs[2].text = "";
         document.paragraphs[6].runs[0].text = schools[curr_student];
